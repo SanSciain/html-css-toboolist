@@ -9,7 +9,7 @@
 /* Header */
 
 .container{
-    width: 96%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -27,3 +27,65 @@ header .container{
 }
 
 /* MAIN */
+main .container{
+    border-width: 20px 200px 10px;
+    border-style: solid;
+    border-color: #f6f8f9;
+}
+
+/* NAV */
+nav{
+    height: 70px;
+    border-bottom: 5px solid #f6f8f9;
+    padding-top: 25px;
+    padding-left: 50px;
+}
+
+.button{
+    border-style: none;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+}
+
+.button.task{
+    background-color: #47adf1;
+    color: white;
+}
+
+.button.section{
+    border: 1px solid #d1d5da;
+    color: #d1d5da;
+    background-color: white;
+}
+
+/* Section */
+section {
+    padding: 50px 50px ;
+}
+
+ul{
+    list-style: none;
+}
+
+.circle{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    border: 3px solid green;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.circle.red{
+    border-color: red;
+}
+
+.label{
+    padding: 0px 5px;
+    background-color: blue;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: white;
+}
