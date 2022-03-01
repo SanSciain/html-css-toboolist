@@ -16,14 +16,17 @@
 header .container{
     height: 80px;
 }
-/* capire come posizionarli */
-#logo{
 
+#logo{
+    height: 60px;
+    vertical-align: middle;
+    margin-left: 20px;
 }
 
 #logo-text{
     font-size: 3rem;
     font-weight: bold;
+    vertical-align: middle;
 }
 
 /* MAIN */
@@ -68,24 +71,67 @@ ul{
     list-style: none;
 }
 
+li{
+    margin-bottom: 10px;
+    font-weight: normal;
+    font-size: 0.8rem;
+}
+
+li.father{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
 .circle{
     display: inline-block;
     width: 22px;
     height: 22px;
-    border: 3px solid green;
+    border: 3px solid #69c2ac;
+    font-size: 0.7rem;
+    font-weight: bold;
     border-radius: 50%;
     text-align: center;
-    vertical-align: middle;
+    line-height: 22px;
+    color: #69c2ac;
+    margin-right: 10px;
 }
 
 .circle.red{
-    border-color: red;
+    border-color: #ee7670;
+    color: #ee7670;
 }
 
 .label{
     padding: 0px 5px;
-    background-color: blue;
+    background-color: #45abea;
     border-radius: 10px;
     margin-left: 5px;
     color: white;
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+.label.q1{
+    background-color: #9c72e4;
+}
+
+.label.re{
+    background-color: #64c0a9;
+}
+
+.label.mobile{
+    background-color: #f29e33;
+}
+
+.label.web{
+    background-color: #d863a1;
+}
+
+.label.sale{
+    background-color: #b0c926;
+}
+
+span.triangle{
+    font-size: 1.2rem;
 }
